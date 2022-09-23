@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>装修生活</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./css/car.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script type="text/javascript"
+        src="https://api.map.baidu.com/api?type=webgl&v=1.0&ak=C3Ndn9hcjt1iSG216m3R2QRt17BQMtE7"></script>
+</head>
+<style type="text/css">
+    #allmap {
+        width: 1200px;
+        height: 400px;
+        overflow: hidden;
+        margin: 0;
+        font-family: "微软雅黑";
+    }
+
+    #backtop {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        /* background-color: #fff; */
+        z-index: 9;
+    }
+</style>
+
+<body>
+    <div id="top">
+        <div width="100%" class="btbj">
+            <p class="huang1">装修装潢</p>
+            <table class="nave">
+                <tr>
+                    <td class="nav-td"><a href="home.html">首页</a></td>
+                    <td class="nav-td"><a href="About us.html">关于我们</a></td>
+                    <td class="nav-td"><a href="case.html">案例欣赏</a></td>
+                    <td class="nav-td"><a href="renovation.html">装修百度</a></td>
+                    <td class="nav-td xz"><a href="contact.html">联系我们</a></td>
+                </tr>
+            </table>
+        </div>
+        <img src="./images/contact/bj.jpg" alt="" width="100%"> <br>
+        <br>
+        <div width="1200px" >
+            <table width="1200" border="0" class="company_name">
+                <tr>
+                    <td width="45%" class="table-lx">联系我们</td>
+                    <td width="5%" rowspan="2">&nbsp;</td>
+                    <td width="50%" class="table-biaodan" rowspan="2">
+                        <table width="560" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="70" height="30" align="center" valign="middle">
+                                    <div>
+                                        <div>姓名： </div>
+                                    </div>
+                                </td>
+                                <td valign="middle"><input type="text" class="input1"> </td>
+                                <td width="90" align="center" valign="middle">
+                                    <div>
+                                        <div>* &nbsp;&nbsp;邮箱：</div>
+                                    </div>
+                                </td>
+                                <td valign="middle"><input type="text" class="input2"></td>
+                            </tr>
+                            <tr>
+                                <td width="70" align="center" valign="middle">
+                                    <div>
+                                        <div>电话：</div>
+                                    </div>
+                                </td>
+                                <td valign="middle"><input type="text" class="input3"> </td>
+                                <td width="90" height="80" align="center" valign="middle">&nbsp;</td>
+                                <td align="center" valign="middle">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td width="70" align="center" valign="middle">
+                                    <div>
+                                        <div>内容：</div>
+                                    </div>
+                                </td>
+                                <td valign="middle"><textarea class="input4"></textarea></td>
+                                <td width="90" align="center" valign="middle">&nbsp;</td>
+                                <td align="center" valign="middle">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle">&nbsp;</td>
+                                <td valign="middle">
+                                    <div class="tijiao"><a href="#" style="color: #fff; font-size: 23;">提交留言</a> </div>
+                                </td>
+                                <td align="center" valign="middle">&nbsp;</td>
+                                <td align="center" valign="middle">&nbsp;</td>
+
+                            </tr>
+                        </table>
+                        <!-- <p>发表您的留言：</p>
+                        姓名： <input type="text" class="input1"> 邮箱：<input type="text" class="input2"> <br>
+                        电话： <input type="text" class="input3"> <br>
+                        内容：  <textarea class="input4"></textarea> -->
+                        <!-- <input type="text" class="input4"
+                            onfocus="javascript:if(this.value=='留言需审核后才会显示')this.value='';"> -->
+                        <!-- <input type="text" onfocus="javascript:if(this.value=='留言需审核后才会显示')this.value='';">   -->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-wenben1">
+                        <p>联系QQ：177488228</p>
+                        <p> 联系邮箱：xxx@.co.m </p>
+                        <p>联系电话：020-000000  000-000000 </p>
+                        <p>联系地址：XXX省XXX市XXX县XXX路XXX号</p>
+                    </td>
+                </tr>
+            </table>
+            <br><br>    
+            <!--百度地图容器-->
+
+            <div style="display:flex;justify-content:center;" class="ditu">
+                <div id="allmap"></div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="button">
+            <br><br>
+            <table align="center" class="button-table">
+                <tr>
+                    <td width="200px">
+                        <p>联系我们：</p><br>
+                        <p class="y">000-000000</p>
+                    </td>
+                    <td><img src="./images/shuxian1.png" alt=""></td>
+                    <td width="300px">
+                        <p>联系QQ：177488228</p>
+                        <p> 手机号码：130000000</p>
+                        <p> 联系邮箱：xxx@.co.m</p>
+                    </td>
+                    <td><img src="./images/shuxian1.png" alt=""></td>
+                    <td width="200px">
+                        <p>联系地址：XXX省XXX市XXX县XXX路XXX号 </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="backtop">
+        <img src="./images/01.png" alt="" onclick="scrollToTop()">
+    </div>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/contact.js"></script>
+    <!-- <script src="./js/bddt.js"></script> -->
+    <script type="text/javascript">
+        // GL版命名空间为BMapGL
+        // 按住鼠标右键，修改倾斜角和角度
+        var map = new BMapGL.Map("allmap");    // 创建Map实例
+        map.centerAndZoom(new BMapGL.Point(117.067461, 36.70757), 19);  // 初始化地图,设置中心点坐标和地图级别
+        map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+        map.setHeading(64.5);
+        map.setTilt(73);
+    </script>
+</body>
+
+</html>

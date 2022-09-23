@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-size: 14px;
+}
+table{margin:auto;}
+.lb {
+    width: 100%;
+    height: 960px;
+    /* background-image: url("../images/home/lunbo1.jpg"); */
+
+}
+
+.btl {
+    height: 120px;
+    color: #2B2B2B;
+    margin-top: 0xp;
+    position: absolute;
+}
+
+.huang {
+    font-size: 40px;
+    color: #FFC001;
+    margin-top: -917px;
+    /* margin-right: 485px; */
+    margin-left: 20%;
+}
+.huang1 {
+    width: 200px;
+    font-size: 40px;
+    color: #FFC001;
+    padding-top: 45px;
+    padding-left: 387px;
+    
+}
+.wbtbj{
+    width: 100%;
+    /* background-color: #2B2B2B; */
+    height: 130px;
+    margin-top: 20px;
+}
+.btbj{
+    width: 100%;
+    background-color: #2B2B2B;
+    height: 130px;
+}
+.nav {
+    width: 685px;
+    margin-top: -37px;
+    margin-left: 48%;
+}
+/* .nav {
+    width: 36%;
+    margin-left: 917px;
+    margin-top: -40px;
+} */
+
+.nave{
+    width: 36%;
+    margin-left: 917px;
+    margin-top: -40px;
+    background-color: #2B2B2B;
+    
+}
+.nav a {
+	color: #FFF;
+    font-size: 19px;
+	text-decoration: none;
+}
+.nave a{
+    color: #FFF;
+    font-size: 19px;
+	text-decoration: none;
+    
+}
+.nav a:hover {
+	color: #FFC001;
+}
+.nave  a:hover{
+    color: #FFC001;
+    
+}
+.xz a{
+    color: #FFC001;
+}
+
+
+.nav-td{
+    width: 114px;
+    height: 20px;
+    line-height: 20px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+
+.button {
+    height: 270px;
+    background-image: url("../images/butter.jpg");
+    background-size: 100%;
+   
+    text-align: center;
+    color: rgb(90, 90, 90);
+
+}
+.button-table{
+    margin-top: 10px;
+    width: 900px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.y{
+    color: #FFC001;
+    margin-top: -10px;
+}

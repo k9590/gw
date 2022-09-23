@@ -1,0 +1,72 @@
+.bj{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/contact/bj.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.table-lx {
+	font-size: 20px;
+	color: #FFC209;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFC001;
+	line-height: 30px;
+    padding-bottom: 15px;
+}
+.table-wenben1 {
+	line-height: 60px;
+    font-size: 17px;
+	color: #666;
+}
+.table-biaodan {
+	line-height: 40px;
+	color: #666;
+    padding-right: 20px;
+}
+.input1 , .input2 , .input3{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    /* line-height: 30px; */
+    /* margin-top: 20px; */
+}
+.input4 {
+    outline: none;
+    width: 200px;
+    height: 80px;
+    /* margin-top: 20px; */
+    /* text-align: center; */
+    resize: none;
+    outline: none;
+}
+
+
+
+/* 百度地图 */
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}
+.tijiao{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #FFC001;
+    text-align: center;
+
+}

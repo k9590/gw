@@ -1,0 +1,57 @@
+.bj{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/renovation/bj.jpg");
+    background-repeat: no-repeat;
+
+}
+.tbalet{
+    font-size: 19px;
+}
+.tbalet a {
+	color: rgb(0, 0, 0);
+    font-size: 19px;
+	text-decoration: none;
+}
+.tbalet a:hover {
+	color: #FFC001;
+}
+.xhx{
+    height: 150px;
+	border-bottom-width: 1px;
+	border-bottom-style:  dashed;
+	/* line-height: 30px; */
+	padding-bottom: 20px;
+	/* padding-right: 20px; */
+}
+.H2{
+    font-size: 30px;
+}
+.hui{
+   
+    margin-top: 5px;
+    font-size: 14px;
+    color: #999;
+}
+.HT2{
+    color: #fff;
+}
+.HT2 a{
+    color: #fff;
+}
+.HT3{
+    color: #fff;
+}
+.HT3 a{
+    color: #fff;
+}
+
+/* 顶部返回按钮 */
+#backtop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    /* background-color: #fff; */
+    z-index: 9;
+}

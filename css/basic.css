@@ -1,0 +1,39 @@
+/*basic.css - Written by douchaoyang in September 2015*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font-size:12px;font-family:"Microsoft Yahei",arial;}
+em,strong,th,i{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+a{text-decoration:none;cursor:pointer;outline:none;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul,li{list-style:none;}
+fieldset,img{border:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix{*zoom:1;}
+/* body{background: #1f1f1f;min-width: 1200px;font-size: 14px;} */
+/*basic end*/
+/*----------------------------------------------- layer pop  -------------------------------------------*/
+.layer {display:none;}
+.layer .close {display: block;cursor: pointer;width: 36px;height: 36px;position: absolute;top: 0;right: 0;color: #fff;line-height: 36px;text-align: center;font-size: 0;}
+.layer{-webkit-animation:moves .5s linear;animation:moves .5s linear}
+@keyframes moves{0%{transform:scale(0.2);opacity:0}100%,50%{transform:scale(1)}}
+@-webkit-keyframes moves{0%{-webkit-transform:scale(0.2);opacity:0}100%,50%{-webkit-transform:scale(1)}}
+@-moz-keyframes moves{0%{-moz-transform:scale(0.2);opacity:0}100%,50%{-moz-transform:scale(1)}}
+@-ms-keyframes moves{0%{-ms-transform:scale(0.2);opacity:0}100%,50%{-ms-transform:scale(1)}}
+@-o-keyframes moves{0%{-o-transform:scale(0.2);opacity:0}100%,50%{-o-transform:scale(1)}}
+/*----------------------------------------------- 公共样式  -------------------------------------------*/
+.clearfix{zoom:1}
+.clearfix:after,.clearfix:before{clear:both;display:table;content:""}
+.pr{position:relative}
+.pa{position:absolute}
+.pf{position:fixed}
+.tc{text-align:center}
+.tr{text-align:right}
+.fl{float:left}
+.fr{float:right}
+.ov{overflow:hidden}
+.ovt{overflow:hidden;text-indent:-9999px}
+.mAuto{margin:0 auto}
+.mr0{margin-right:0}
+.dsnone{display:none}
+.btn{display:block;}
+.fw{font-weight:bold;}

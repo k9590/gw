@@ -1,0 +1,563 @@
+
+.lbnr {
+    /* width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 380px;
+    line-height: 300px; */
+    width: 60%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 301px;
+    margin-left: 513px;
+    /* margin: auto; */
+    line-height: 300px;
+}
+
+.lbnr-left {
+    width: 10%;
+    /* background-color: aquamarine; */
+    /* margin-left: 20px; */
+    /* height: 960px; */
+    text-align: center;
+}
+
+.lbnr-middle {
+    width: 80%;
+    /* background-color: blue; */
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+/* 轮播图01 */
+.swiper-container{
+    position: relative;
+}
+.swiper-wrapper{
+    position: absolute;
+}
+.swiper-wrapper img{
+    display:block;
+    position: absolute;
+}
+
+
+.tijiao{
+    width: 72px;
+    height: 42px;
+    background-color: #FFC001;
+    margin-left: 642px;
+    background-image: url(../images/home/ss.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    margin-top: -43px;
+}
+.tijiao img{
+    width: 30px;
+}
+.bai1 {
+    color: #fff;
+    font-size: 23px;
+    margin-top: -255px;
+}
+
+.srk1 {
+    width: 510px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -100px;
+    /* border: 0px; */
+}
+
+.lbnr-right {
+    width: 10%;
+    /* background-color: blueviolet; */
+    /* margin-left: 20px;*/
+    text-align: center;
+}
+
+.xiao {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: #000;
+}
+
+.xiao td {
+    width: 200px;
+    height: 60px;
+    color: #000;
+
+}
+
+/* 文本 */
+.wenben1 {
+    width: 1100px;
+    margin: auto;
+}
+
+.wenben1-1 {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.wenben1-2 {
+    text-align: center;
+    color: rgb(158, 158, 158);
+    line-height: 25px;
+}
+
+/* 选项卡  01 */
+li {
+    list-style: none;
+}
+
+.nav1 ul {
+    display: flex;
+    width: 440px;
+    margin: auto;
+}
+
+.nav1 li {
+    width: 30%;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    /* color:#747774; */
+}
+
+.span1 {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #747774;
+}
+
+.selected {
+    width: 15%;
+    border-bottom: 1px solid #FFC001;
+    padding-bottom: 10px;
+    color: #FEDB52;
+}
+
+.content div {
+    display: none;
+    width: 850px;
+    height: 620px;
+    /* margin: auto; */
+    margin-left: 220px;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+/* 初始的时候 只让第一块内容显示出来 */
+.content div:nth-child(1) {
+    display: block;
+}
+
+.content-left {
+    width: 850px;
+    /* background-color: aqua  ; */
+    height: 620px;
+}
+
+.content-right {
+    width: 345px;
+    height: 620px;
+    color: #fff;
+    background-color: #383838;
+}
+.content-right-bt{
+    font-size: 24px;
+    margin-top: 2px;
+    line-height: 90px;
+}
+.content-right-bj{
+    width: 105px;
+    height: 105px;
+    background-image: url(../images/home/biankuang.png);
+    background-repeat:no-repeat;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    vertical-align:middle;
+}
+.zjbj {
+    height: 400px;
+    margin-top: 55px;
+    background-image: url("../images/zjbj.jpg");
+    /* background-size:100%; */
+    width: 100%;
+}
+
+.zjbj-table {
+    color: #fff;
+    text-align: center;
+    margin-left: 25%
+}
+
+.zjbj-table td {
+    width: 368px;
+    /* height: 40px; */
+    /* line-height: 40px; */
+    font-size: 16px;
+}
+
+.t001 {
+    font-size: 25px;
+    text-align: center;
+    /* margin-left: 10%; */
+    color: #fff;
+}
+
+.t002 {
+    float: left;
+    font-size: 55px;
+    line-height: 30px;
+    /* display: flex; */
+    margin-top: 60px;
+    margin-left: 46px;
+}
+.t003{
+    float: left;
+    line-height: 30px;
+    font-size: 18px;
+    display: flex;
+    margin-top: 68px;
+    margin-left: 16px;
+}
+.t004{
+    width: 189px;
+    line-height: 30px;
+    font-size: 20px;
+    /* display: flex; */
+    margin-top: 134px;
+    margin-right: 101px;
+}
+/* 中间  服务优势  下 的内容区 */
+
+.nrq {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.Fnrq {
+    display: flex;
+    /* width: 500px; */
+    height: 184px;
+    margin: auto;
+    /* text-align: center;   */
+}
+
+/* .nrqs-img{
+    width: 250px;
+}
+.nrqx-img{
+    width: 250px;
+} */
+.nrq-wz {
+    width: 280px;
+    background-color: #FCC003;
+    line-height: 25px;
+    color: #fff;
+}
+
+
+
+
+
+/* 选项卡  02*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+ul.tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+ul.tabs li.current {
+    background: #FFBF00;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.current {
+    display: inherit;
+}
+
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+/* 照片墙 */
+.zpq {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+.zpq-1 {
+    margin: auto;
+}
+
+.zpq-1 img {
+    width: 380px;
+}
+
+.zpq-2 {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.zpq-2 img {
+    width: 570px;
+    /* margin-top: 2px; */
+}
+
+
+/* 轮播图02 */
+/*最外围的div*/
+#container {
+    width: 850px;
+    height: 620px;
+    overflow: hidden;
+    position: relative; /*相对定位*/
+    margin: 0 auto;
+  }
+
+  /*包含所有图片的<div>*/
+
+  #list {
+    width: 2550px; 
+    height: 620px;
+    position: absolute; /*绝对定位*/
+    z-index: 1;
+
+  }
+
+  /*所有的图片<img>*/
+  #list img {
+    float: left; /*浮在左侧*/
+  }
+
+  /*包含所有圆点按钮的<div>*/
+  #pointsDiv {
+    position: absolute;
+    height: 10px;
+    width: 100px;
+    z-index: 2;
+    bottom: 20px;
+    left: 250px;
+  }
+
+  /*所有的圆点<span>*/
+
+  #pointsDiv span {
+    cursor: pointer;
+    float: left;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #333;
+    margin-right: 5px;
+  }
+
+  /*第一个<span>*/
+
+  #pointsDiv .on {
+    background: orangered;
+  }
+
+  /*切换图标<a>*/
+
+  .arrow {
+    cursor: pointer;
+    display: none;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    background-color: RGBA(0, 0, 0, 0.3);
+    color: #fff;
+  }
+
+  /*鼠标移到切换图标上时*/
+  .arrow:hover {
+    background-color: RGBA(0, 0, 0, 0.7);
+  }
+
+  /*鼠标移到整个div区域时*/
+  #container:hover .arrow {
+    display: block; /*显示*/
+  }
+
+  /*上一个切换图标的左外边距*/
+  #prev {
+    left: 20px;
+    top: 360px;
+  }
+
+  /*下一个切换图标的右外边距*/
+  #next {
+    top: 360px;
+    right: 20px;
+  }
+
+
+
+  /* tba中的轮播图 */
+  #box {
+    position: relative;
+    width: 850px;
+    height: 620px;
+
+    user-select: none;
+}
+
+/* 顶部栏布局 */
+.leftbar {
+    /* margin: auto; */
+    margin-left: auto;
+    display: flex;
+    width: 512px;
+    text-align: center;
+    margin-left: 250;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftbar div {
+    flex: 1;
+    line-height: 90px;
+    letter-spacing: 5px;
+}
+
+.leftbar div:nth-child(2) {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* 底部切换按钮样式设计 */
+.bottombar {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -95px;
+    right: -1px;
+    z-index: 10;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.bottombar div {
+    flex: 1;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.bottombar div~div {
+    border-left: 1px solid grey;
+}
+
+.pic img {
+    position: absolute;
+    display: block;
+    width: 850px;
+    height: 620px;
+}
+
+.show {
+    z-index: 5;
+}
+
+.leftbar .checked,
+.bottombar .checked {
+    color: #FFC001;
+}
+
+.content-right {
+    width: 345px;
+    height: 620px;
+    /* margin-left: 1369px; */
+    margin-top: 92px;
+    color: #fff;
+    background-color: #383838;
+}
+
+.content-right-bt {
+    font-size: 24px;
+    margin-top: 57px;
+    line-height: 101px;
+    text-align: center;
+}
+
+.content-right-bj {
+    width: 105px;
+    /* height: 105px; */
+    /* background-image: url(../images/home/biankuang.png); */
+    /* background-repeat: no-repeat; */
+    /* margin: auto; */
+    /* margin-top: 10px; */
+    /* vertical-align: middle; */
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+    padding-right: 20px;
+}
+
+.jzxx {
+    justify-content: center;
+    /* margin: auto; */
+    text-align: center;
+    display: flex;
+}

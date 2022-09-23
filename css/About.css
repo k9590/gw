@@ -1,0 +1,68 @@
+.bj{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/About/bj.jpg");
+    background-repeat: no-repeat;
+
+}
+.huad1{
+    /* display: none; */
+    margin-left: 900px;
+    visibility:hidden;
+   
+}
+
+/* 中间  服务优势  下 的内容区 */
+
+.nrq {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.Fnrq {
+    display: flex;
+    /* width: 500px; */
+    height: 184px;
+    margin: auto;
+    /* text-align: center;   */
+}
+
+/* .nrqs-img{
+    width: 250px;
+}
+.nrqx-img{
+    width: 250px;
+} */
+.nrq-wz {
+    width: 280px;
+    background-color: #FCC003;
+    line-height: 25px;
+    color: #fff;
+}
+
+.wenben1{
+    font-size: 16px;
+    color: #999;
+    text-indent: 2px;
+    line-height: 40px;
+}
+.wenben2{
+    /* text-align: center; */
+    color: #999;
+    margin: auto;
+    /* text-indent: 2px; */
+    line-height: 40px;
+}
+
+
+/* 返回顶部按钮 */
+ #backtop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    /* background-color: #fff; */
+    z-index: 9;
+}

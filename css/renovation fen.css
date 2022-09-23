@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+}
+.bj{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/renovation/bj.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.tbalet{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.fb{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999;
+}
+.wenben{
+    margin-top: 10px;
+    line-height: 40px;
+	color: #474747;
+    font-size: 15px;
+	text-indent: 2em;
+
+}
+
+/* 顶部返回按钮 */
+#backtop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    /* background-color: #fff; */
+    z-index: 9;
+}
+

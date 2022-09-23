@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>装修生活</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./css/car.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/home-lbt02.css">
+    <link rel="stylesheet" href="./css/home-lbt01.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <!-- 引入字体图标 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<style>
+    /* div叠加 */
+    .div-relative {
+        position: relative;
+    }
+
+    .div-a {
+        position: absolute;
+        z-index: 0;
+    }
+
+    .div-b {
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .div-c {
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    /* 返回顶部按钮 */
+    #backtop {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        /* background-color: #fff; */
+        z-index: 9;
+    }
+
+    .inputBox {
+        justify-content: center;
+        display: flex;
+        width: 510px;
+        margin: -38px auto;
+
+    }
+</style>
+
+<body>
+    <div id="top">
+        <div class="lb div-relative">
+            <div class="lbnr div-c">
+                <div class="lbnr-middle">
+                    <img src="./images/home/bt.png" alt="">
+                    <p class="bai1">为您量身定制全新、优雅、舒适的居家工作环境</p>
+                    <div class="inputBox">
+                        <input type="text" class="srk1" id="myinput" value="">
+                        <div class="tijiao" onclick="isempty()"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="banner">
+                <!-- 承载图片的整体盒子 -->
+                <ul class="imgBox">
+                    <!-- 每一个 li 就是一个小图片盒子 -->
+                    <li class="active"><img src="./images/home/lunbo01.jpg" alt=""></li>
+                    <li><img src="./images/home/lunbo02.jpg" alt=""></li>
+                </ul>
+
+                <!-- 承载焦点的整体盒子 -->
+                <ol class="pointBox"></ol>
+
+                <!-- 左右两个按钮 -->
+                <div class="prev">&lt;</div>
+                <div class="next">&gt;</div>
+            </div>
+
+        </div>
+        <div class="btl div-b">
+            <p class="huang">装修装潢</p>
+            <table class="nav">
+                <tr>
+                    <td class="nav-td xz" color="#FFC001"><a href="home.html">首页</a></td>
+                    <td class="nav-td"><a href="About us.html">关于我们</a></td>
+                    <td class="nav-td"><a href="case.html">案例欣赏</a></td>
+                    <td class="nav-td"><a href="renovation.html">装修百度</a></td>
+                    <td class="nav-td"><a href="contact.html">联系我们</a></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div width="1200px">
+            <table class="xiao">
+                <tr>
+                    <td><img src="./images/mudiban.png" alt=""></td>
+                    <td><img src="./images/cizhuan.png" alt=""></td>
+                    <td><img src="./images/shuaqiang.png" alt=""></td>
+                    <td><img src="./images/menchaung.png" alt=""></td>
+                    <td><img src="./images/chufang.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>木地板</td>
+                    <td>瓷砖</td>
+                    <td>刷墙</td>
+                    <td>门窗</td>
+                    <td>厨房</td>
+                </tr>
+            </table>
+            <div class="wenben1">
+                <P class="wenben1-1">客户的满意是我们较大的追求</P>
+                <p class="wenben1-2">我们不断对家装行业进行探索与尝试，解决行业弊端和消费者痛点，
+                    是我们前进的本质。我们始终秉承“爱与责任”的核心理念，以“健康生活服务商“为品牌定位，
+                    采用
+                </p>
+                <p width="900px" class="wenben1-2">“德标工程”，共筑生活家高品质健康整装体系。我们进行产品升级，努力把健康做到更佳，
+                    为更多人打造健康的环境，让每个人都享受健康家居。</p>
+            </div>
+            <div class="jzxx">
+                <div id="box">
+                    <div class="leftbar">
+                        <div class="checked">舒适卧室</div>
+                        <div>简约客厅 </div>
+                        <div>开放厨房 </div>
+                    </div>
+                    <div class="scenery pic">
+                        <img class="show" src="./images/home/shushi01.jpg" alt="scenery">
+                        <img src="./images/home/shushi02.jpg" alt="scenery">
+                        <img src="./images/home/shushi03.jpg" alt="scenery">
+                    </div>
+                    <div class="car pic">
+                        <img src="./images/home/jianyue01.png" alt="animal">
+                        <img src="./images/home/jianyue02.jpg" alt="animal">
+                        <img src="./images/home/jianyue03.jpg" alt="animal">
+                    </div>
+                    <div class="entertainment pic">
+                        <img src="./images/home/kaifang01.png" alt="entertainment">
+                        <img src="./images/home/kaifang02.jpg" alt="entertainment">
+                        <img src="./images/home/kaifang03.jpg" alt="entertainment">
+                    </div>
+
+                    <div class="bottombar">
+
+                    </div>
+                </div>
+                <div class="content-right">
+                    <p class="content-right-bt"> 全屋整装</p>
+                    <table width="260px" align="center">
+                        <tr height="130px">
+                            <td class="content-right-bj">
+                                <img src="./images/home/yingzhuang.png" alt=""><br>
+                                硬装
+                            </td>
+                            <td class="content-right-bj">
+                                <img src="./images/home/ruanzhuang.png" alt=""><br>
+                                软装
+                            </td>
+                        </tr>
+                        <tr height="130px">
+                            <td class="content-right-bj">
+                                <img src="./images/home/zhineng.png" alt=""><br>
+                                智能家居
+                            </td>
+                            <td class="content-right-bj">
+                                <img src="./images/home/shushi.png" alt=""><br>
+                                舒适家居
+                            </td>
+                        </tr>
+                        <tr height="130px">
+                            <td class="content-right-bj">
+                                <img src="./images/home/lvse.png" alt=""><br>
+                                绿色家居
+                            </td>
+                            <td class="content-right-bj">
+                                <img src="./images/home/jiankao.png" alt=""><br>
+                                健康家居
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="zjbj">
+                <br><br><br><br><br>
+                <p class="t001">我们的服务优势</p>
+                <table class="zjbj-table" align="center">
+                    <tr>
+                        <td>
+                            <p class="t002">28</p>
+                            <p class="t003"> 间</p>
+                            <p class="t004">合作建材供应企业</p>
+                        </td>
+                        <td>
+                            <p class="t002">80</p>
+                            <p class="t003"> 间</p>
+                            <p class="t004">严格的标准工序</p>
+                        </td>
+                        <td>
+                            <p class="t002">20</p>
+                            <p class="t003"> 间</p>
+                            <p class="t004">管家式装修服务体验</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <br><br>
+            <div width="1200px">
+                <div class="nrq">
+                    <div class="Fnrq yc  div01">
+                        <div class="nrq-img"><img src="./images/home/nrq01.png" alt=""></div>
+                        <div class="nrq-wz">
+                            <img src="./images/home/gexinghua.png" alt="">
+                            <p>个性化定制</p>
+                            <p>想你所想，专属定制</p>
+                            <p>没有做不到，只有想不到</p>
+                        </div>
+                    </div>
+                    <div class="Fnrq  yc div02">
+                        <div class="nrq-img"><img src="./images/home/nrq02.png" alt=""></div>
+                        <div class="nrq-wz">
+                            <img src="./images/home/sheji.png" alt="">
+                            <p>资深设计师</p>
+                            <p>想你所想，专属定制</p>
+                            <p>没有做不到，只有想不到</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="nrq">
+                    <div class="Fnrq div03">
+                        <div class="nrq-wz ">
+                            <img src="./images/home/dute.png" alt="">
+                            <p>独特风格</p>
+                            <p>想你所想，专属定制</p>
+                            <p>没有做不到，只有想不到</p>
+                        </div>
+                        <div class="nrq-img"><img src="./images/home/nrq03.png" alt=""></div>
+                    </div>
+                    <div class="Fnrq div04">
+                        <div class="nrq-wz ">
+                            <img src="./images/home/quanwu.png" alt="">
+                            <p>全屋定制案</p>
+                            <p>想你所想，专属定制</p>
+                            <p>没有做不到，只有想不到</p>
+                        </div>
+                        <div class="nrq-img"><img src="./images/home/nrq04.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="wenben1">
+                    <P class="wenben1-1">我们的装修案例欣赏</P>
+                    <p class="wenben1-2">装修设计是设计师为了满足使用者对生活，创造出来的符合人们理想的功能空间环境的一个创作过程。
+                    </p>
+                    <p class="wenben1-2">DECORATION DESIGN, IS A COLLECTION OF DECORATIVE DESIGN, CONSTRUCTION, F
+                        URNITURE, SOFT FURNISHINGS, SUCH AS THE INTEGRATION .</p>
+                </div>
+
+                <!-- 选项卡 -->
+                <!-- 选项卡标题 -->
+                <div class="container">
+                    <br><br>
+                    <ul class="tabs">
+                        <li class="tab-link current" data-tab="tab-1">客厅装修</li>
+                        <li class="tab-link" data-tab="tab-2">厨房装修 </li>
+                        <li class="tab-link" data-tab="tab-3">办公室装修</li>
+                        <li class="tab-link" data-tab="tab-4">浴室装修</li>
+                    </ul>
+                    <!-- 选项卡内容 -->
+                    <div id="tab-1" class="tab-content current">
+                        <div class="zpq">
+                            <div class="zpq-1"> <img src="./images/home/zpq01.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq02.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq03.jpg" alt=""></div>
+                        </div>
+                        <div class="zpq">
+                            <div class="zpq-2"><img src="./images/home/zpq04.jpg" alt=""></div>
+                            <div class="zpq-2"><img src="./images/home/zpq05.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-content">
+                        <div class="zpq">
+                            <div class="zpq-1"> <img src="./images/home/zpq06.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq07.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq08.jpg" alt=""></div>
+                        </div>
+                        <div class="zpq">
+                            <div class="zpq-2"><img src="./images/home/zpq09.jpg" alt=""></div>
+                            <div class="zpq-2"><img src="./images/home/zpq10.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-content">
+                        <div class="zpq">
+                            <div class="zpq-1"> <img src="./images/home/zpq11.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq12.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq13.jpg" alt=""></div>
+                        </div>
+                        <div class="zpq">
+                            <div class="zpq-2"><img src="./images/home/zpq14.jpg" alt=""></div>
+                            <div class="zpq-2"><img src="./images/home/zpq15.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div id="tab-4" class="tab-content">
+                        <div class="zpq">
+                            <div class="zpq-1"> <img src="./images/home/zpq16.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq17.jpg" alt=""></div>
+                            <div class="zpq-1"> <img src="./images/home/zpq18.jpg" alt=""></div>
+                        </div>
+                        <div class="zpq">
+                            <div class="zpq-2"><img src="./images/home/zpq19.jpg" alt=""></div>
+                            <div class="zpq-2"><img src="./images/home/zpq20.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="button">
+                <br><br>
+                <table align="center" class="button-table">
+                    <tr>
+                        <td width="200px">
+                            <p>联系我们：</p><br>
+                            <p class="y">000-000000</p>
+                        </td>
+                        <td><img src="./images/shuxian1.png" alt=""></td>
+                        <td width="300px">
+                            <p>联系QQ：177488228</p>
+                            <p> 手机号码：130000000</p>
+                            <p> 联系邮箱：xxx@.co.m</p>
+                        </td>
+                        <td><img src="./images/shuxian1.png" alt=""></td>
+                        <td width="200px">
+                            <p>联系地址：XXX省XXX市XXX县XXX路XXX号 </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="backtop">
+        <img src="./images/01.png" alt="" onclick="scrollToTop()">
+    </div>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>
